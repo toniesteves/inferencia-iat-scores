@@ -67,7 +67,7 @@ iat %>%
 iat %>% 
     group_by(sex) %>% 
     summarise(media = mean(d_art),
-              No_indivíduos = n(),
+              num_indivíduos = n(),
               std = sd(d_art))
 ```
 
@@ -148,7 +148,7 @@ grid.arrange(p1, p2, ncol = 2)
 
 ### Conclusão
 
-Em média, as mulheres que participaram do experimento tiveram uma associação implícita (medida pelo IAT) com a matemática **negativa** e **média** (média 0.51, desv. padrão 0.09, N = 105). Homens tiveram uma associação **positiva** com a matemática, portanto **maior** que as mulheres (média 0.11, desv. padrão, N = 105). Houve portanto uma **considerável** diferença entre homens e mulheres (diferença das médias -0.40, 95% CI [-0.56, -0.21]). A partir desta amostra, estimamos que mulheres têm uma associação negativa consideravelmente mais forte, com uma diferença que provavelmente está entre -0.2 e -0.5 ponto na escala IAT, o suficiente para destacar uma associação negativa muito forte contra a matemática. Porém é necessário coletar mais dados para estimar se a diferença é relevante ou negligenciável dada uma amotrsta de apenas 155 indivíduos.
+Em média, as mulheres que participaram do experimento tiveram uma associação implícita (medida pelo IAT) com a matemática **negativa** e **forte** (média 0.51, desv. padrão 0.49, N = 64). Homens tiveram uma associação **positiva** com a matemática, portanto **maior** que as mulheres (média 0.11, desv. padrão 0.42, N = 41). Houve portanto uma **considerável** diferença entre homens e mulheres (diferença das médias -0.40, 95% CI [-0.57, -0.23]). A partir desta amostra, estimamos que mulheres têm uma associação negativa consideravelmente mais forte, com uma diferença que provavelmente está entre -0.2 e -0.5 ponto na escala IAT, o suficiente para destacar uma associação negativa muito forte contra a matemática. Porém é necessário coletar mais dados para estimar se a diferença é relevante ou negligenciável dada uma amostra total de apenas 155 indivíduos.
 
 --- 
 *Exemplos de possíveis conclusões para completar*
